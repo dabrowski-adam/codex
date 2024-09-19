@@ -1,6 +1,6 @@
-.vscode
 .idea
-.bsp
+.vscode
 .metals
-.scala-build
+**/.bsp
+**/.scala-build
 **/target
