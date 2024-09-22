@@ -10,9 +10,6 @@ val latestTag =
     if message.contains(':')
     meta     = message.takeWhile(_ != ':')
     tag      = meta.takeWhile(_ != '(')
-    //scope      = Option(meta)
-    //    .filter(_.contains('(')).map(_.dropWhile(_ != '(')).drop(1)
-    //    .filter(_.contains(')')).map(_.takeWhile(_ != ')'))
   yield tag
 
 
