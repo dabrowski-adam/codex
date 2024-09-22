@@ -1,5 +1,5 @@
 //> using scala 3.5.1
-//> using jvm graalvm-community:22.0.2
+//> using jvm graalvm-java23:23.0.0
 
 //> using packaging.packageType graalvm
 //> using packaging.graalvmArgs --no-fallback

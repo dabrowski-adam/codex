@@ -7,7 +7,7 @@ import scala.util.Properties
 val platformSuffix: String =
     if      Properties.isWin   then "windows"
     else if Properties.isLinux then "linux"
-    else if Properties.isMac   then "macos"
+    else if Properties.isMac   then "mac"
     else
         sys.error(s"Unrecognized OS: ${sys.props("os.name")}")
 
